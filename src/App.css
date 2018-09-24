@@ -1,0 +1,153 @@
+.App {
+	text-align: center;
+}
+
+html {
+	background-color: black;
+	background-image: radial-gradient(circle, rgb(24, 24, 24), rgb(19, 19, 19), black);
+  height: 100%;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+ 
+}
+
+.picture {
+	padding: 0%;
+}
+
+h1 {
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+.Top {
+	text-align: left;
+	display: block;
+	font-family: 'Merriweather', serif;
+	/*  display: inline-block; */
+	resize: none;
+	background-color: rgb(0, 0, 0);
+	background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(24, 24, 24));
+	border-radius: 25px;
+	margin-right: 900px;
+	margin-left: 40px;
+	margin-top: 25px;
+	min-width: 960px;
+	padding-top: 2px;
+	padding-left: 20px;
+  padding-bottom: 1px;
+  
+}
+
+.Tops {
+	float: right;
+	margin: 20px 250px 0px 0px;
+	font-family: 'Merriweather', serif;
+  font-size: 1em;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,
+td {
+	text-align: left;
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+tr {
+	background-color: #6D7268;
+}
+
+th {
+	background-color: #6D7268;
+	color: #121212;
+}
+
+.App-header {
+	background-image: url("https://images-2.gog.com/07cd03167273e87564ff3914e2ef2087048070037ed9820c1f4f8cd399880a2c.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	/* another 100% if needed  */
+	position: inherit;
+	height: 350px;
+	padding: 50px;
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+.App-title {
+	font-size: 1.5em;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #AA8A4C;
+}
+
+.App-intro {
+	font-size: large;
+}
+
+.Topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	font-size: 17px;
+	margin: 0px;
+}
+
+.Topnav a:hover {
+	background-color: #93ACB0;
+	color: black;
+}
+
+.Appi {
+	background-color:  black;
+	overflow: hidden;
+}
+
+p {
+	margin: 0px;
+}
+
+.Topnav a.active {
+	background-color: rgb(11, 12, 11);
+	color: white;
+}
+
+.Ho {
+	padding: 35px;
+	padding-top: 50px;
+	margin: auto;
+}
+
+
+/* Adds the animations */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
