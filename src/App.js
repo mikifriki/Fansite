@@ -4,7 +4,6 @@ import Picturebox from './Components/Navbar';
 import Intro from './Components/Introduction';
 import Gallery from 'react-grid-gallery';
 import About from './Components/Second';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 /* import BasicExample from './Basic.js'; */
 
 const IMAGES =

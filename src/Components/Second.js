@@ -6,7 +6,7 @@ class About extends React.Component {
 	render() {
 		return (
 			<div className="Tops">
-				<table>
+				<table className="Uus">
 					<tr>
 						<th>About the game</th>
 						<th> </th>
