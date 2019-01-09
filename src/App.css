@@ -11,6 +11,7 @@ html {
 	animation-duration: 3s;
 }
 
+
 .picture {
 	padding: 0%;
 }
@@ -60,8 +61,6 @@ td {
 	margin-right: 20px;
 	border-bottom: 1px solid rgb(0, 0, 0);
 	padding-bottom: 10px;
-
-
 }
 
 tr {
@@ -135,6 +134,21 @@ p {
 	margin: auto;
 }
 
+.Shk{
+	text-transform: uppercase;
+	background-color: white;
+	letter-spacing: 6px;
+	display: inline-block;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	-ms-background-clip: text;
+	-ms-text-fill-color: transparent;
+	background-clip: text;
+	animation: .8s shake infinite alternate;
+}
+
 
 /* Adds the animations */
 @-webkit-keyframes fadeIn {
@@ -157,3 +171,12 @@ p {
   }
 }
 
+@keyframes shake {
+	0% { transform: skewX(-15deg); }
+	5% { transform: skewX(15deg); }
+	10% { transform: skewX(-15deg); }
+	15% { transform: skewX(15deg); }
+	20% { transform: skewX(0deg); }
+	100% { transform: skewX(0deg); }  
+  }
+  
