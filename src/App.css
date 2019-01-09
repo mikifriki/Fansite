@@ -54,7 +54,7 @@ table {
 }
 
 .Uus{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 th,
@@ -87,6 +87,7 @@ th {
 	height: 350px;
 	padding: 50px;
 	color: white;
+	margin-bottom: 25px;
 }
 
 p {
@@ -164,17 +165,14 @@ p {
 
 .Quotes{
 	color: white;
-	display: block;
-	margin-top: 35px;
-	margin-bottom: 20px;
+	display: inline;
 	font-size: 28px;
 	font-family: 'Special Elite', cursive;
 	text-align: center;
 	position: relative;
-	right: 0px;
+	right: 0%;
 	top: 0;
-	width: 100%;
-	left: 15%;
+	left: 18%;
 }
 
 /* Adds the animations */
